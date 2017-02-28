@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEB1C4881E65B47200B07DE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB1C4871E65B47200B07DE9 /* main.m */; };
+		CEB1C48B1E65B47200B07DE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB1C48A1E65B47200B07DE9 /* AppDelegate.m */; };
+		CEB1C48E1E65B47200B07DE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB1C48D1E65B47200B07DE9 /* ViewController.m */; };
+		CEB1C4911E65B47200B07DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB1C48F1E65B47200B07DE9 /* Main.storyboard */; };
+		CEB1C4931E65B47200B07DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB1C4921E65B47200B07DE9 /* Assets.xcassets */; };
+		CEB1C4961E65B47200B07DE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB1C4941E65B47200B07DE9 /* LaunchScreen.storyboard */; };
+		CEB1C4A11E65B47200B07DE9 /* IShimmerImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB1C4A01E65B47200B07DE9 /* IShimmerImageViewTests.m */; };
+		CEB1C4AC1E65B47200B07DE9 /* IShimmerImageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB1C4AB1E65B47200B07DE9 /* IShimmerImageViewUITests.m */; };
+		CEB1C4BC1E65B4E900B07DE9 /* IShimmerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB1C4BB1E65B4E900B07DE9 /* IShimmerView.m */; };
+		CEB1C4BE1E65B53300B07DE9 /* 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB1C4BD1E65B53300B07DE9 /* 1@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEB1C49D1E65B47200B07DE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB1C47B1E65B47200B07DE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB1C4821E65B47200B07DE9;
+			remoteInfo = IShimmerImageView;
+		};
+		CEB1C4A81E65B47200B07DE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB1C47B1E65B47200B07DE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB1C4821E65B47200B07DE9;
+			remoteInfo = IShimmerImageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEB1C4831E65B47200B07DE9 /* IShimmerImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IShimmerImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB1C4871E65B47200B07DE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEB1C4891E65B47200B07DE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEB1C48A1E65B47200B07DE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEB1C48C1E65B47200B07DE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEB1C48D1E65B47200B07DE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEB1C4901E65B47200B07DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEB1C4921E65B47200B07DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEB1C4951E65B47200B07DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEB1C4971E65B47200B07DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB1C49C1E65B47200B07DE9 /* IShimmerImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IShimmerImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB1C4A01E65B47200B07DE9 /* IShimmerImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IShimmerImageViewTests.m; sourceTree = "<group>"; };
+		CEB1C4A21E65B47200B07DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB1C4A71E65B47200B07DE9 /* IShimmerImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IShimmerImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB1C4AB1E65B47200B07DE9 /* IShimmerImageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IShimmerImageViewUITests.m; sourceTree = "<group>"; };
+		CEB1C4AD1E65B47200B07DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB1C4BA1E65B4E900B07DE9 /* IShimmerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IShimmerView.h; sourceTree = "<group>"; };
+		CEB1C4BB1E65B4E900B07DE9 /* IShimmerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IShimmerView.m; sourceTree = "<group>"; };
+		CEB1C4BD1E65B53300B07DE9 /* 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEB1C4801E65B47200B07DE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB1C4991E65B47200B07DE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB1C4A41E65B47200B07DE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEB1C47A1E65B47200B07DE9 = {
+			isa = PBXGroup;
+			children = (
+				CEB1C4851E65B47200B07DE9 /* IShimmerImageView */,
+				CEB1C49F1E65B47200B07DE9 /* IShimmerImageViewTests */,
+				CEB1C4AA1E65B47200B07DE9 /* IShimmerImageViewUITests */,
+				CEB1C4841E65B47200B07DE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEB1C4841E65B47200B07DE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEB1C4831E65B47200B07DE9 /* IShimmerImageView.app */,
+				CEB1C49C1E65B47200B07DE9 /* IShimmerImageViewTests.xctest */,
+				CEB1C4A71E65B47200B07DE9 /* IShimmerImageViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEB1C4851E65B47200B07DE9 /* IShimmerImageView */ = {
+			isa = PBXGroup;
+			children = (
+				CEB1C4BD1E65B53300B07DE9 /* 1@2x.png */,
+				CEB1C4B91E65B4E900B07DE9 /* IShimmerView */,
+				CEB1C4891E65B47200B07DE9 /* AppDelegate.h */,
+				CEB1C48A1E65B47200B07DE9 /* AppDelegate.m */,
+				CEB1C48C1E65B47200B07DE9 /* ViewController.h */,
+				CEB1C48D1E65B47200B07DE9 /* ViewController.m */,
+				CEB1C48F1E65B47200B07DE9 /* Main.storyboard */,
+				CEB1C4921E65B47200B07DE9 /* Assets.xcassets */,
+				CEB1C4941E65B47200B07DE9 /* LaunchScreen.storyboard */,
+				CEB1C4971E65B47200B07DE9 /* Info.plist */,
+				CEB1C4861E65B47200B07DE9 /* Supporting Files */,
+			);
+			path = IShimmerImageView;
+			sourceTree = "<group>";
+		};
+		CEB1C4861E65B47200B07DE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEB1C4871E65B47200B07DE9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEB1C49F1E65B47200B07DE9 /* IShimmerImageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEB1C4A01E65B47200B07DE9 /* IShimmerImageViewTests.m */,
+				CEB1C4A21E65B47200B07DE9 /* Info.plist */,
+			);
+			path = IShimmerImageViewTests;
+			sourceTree = "<group>";
+		};
+		CEB1C4AA1E65B47200B07DE9 /* IShimmerImageViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEB1C4AB1E65B47200B07DE9 /* IShimmerImageViewUITests.m */,
+				CEB1C4AD1E65B47200B07DE9 /* Info.plist */,
+			);
+			path = IShimmerImageViewUITests;
+			sourceTree = "<group>";
+		};
+		CEB1C4B91E65B4E900B07DE9 /* IShimmerView */ = {
+			isa = PBXGroup;
+			children = (
+				CEB1C4BA1E65B4E900B07DE9 /* IShimmerView.h */,
+				CEB1C4BB1E65B4E900B07DE9 /* IShimmerView.m */,
+			);
+			path = IShimmerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEB1C4821E65B47200B07DE9 /* IShimmerImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB1C4B01E65B47200B07DE9 /* Build configuration list for PBXNativeTarget "IShimmerImageView" */;
+			buildPhases = (
+				CEB1C47F1E65B47200B07DE9 /* Sources */,
+				CEB1C4801E65B47200B07DE9 /* Frameworks */,
+				CEB1C4811E65B47200B07DE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IShimmerImageView;
+			productName = IShimmerImageView;
+			productReference = CEB1C4831E65B47200B07DE9 /* IShimmerImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEB1C49B1E65B47200B07DE9 /* IShimmerImageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB1C4B31E65B47200B07DE9 /* Build configuration list for PBXNativeTarget "IShimmerImageViewTests" */;
+			buildPhases = (
+				CEB1C4981E65B47200B07DE9 /* Sources */,
+				CEB1C4991E65B47200B07DE9 /* Frameworks */,
+				CEB1C49A1E65B47200B07DE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB1C49E1E65B47200B07DE9 /* PBXTargetDependency */,
+			);
+			name = IShimmerImageViewTests;
+			productName = IShimmerImageViewTests;
+			productReference = CEB1C49C1E65B47200B07DE9 /* IShimmerImageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEB1C4A61E65B47200B07DE9 /* IShimmerImageViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB1C4B61E65B47200B07DE9 /* Build configuration list for PBXNativeTarget "IShimmerImageViewUITests" */;
+			buildPhases = (
+				CEB1C4A31E65B47200B07DE9 /* Sources */,
+				CEB1C4A41E65B47200B07DE9 /* Frameworks */,
+				CEB1C4A51E65B47200B07DE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB1C4A91E65B47200B07DE9 /* PBXTargetDependency */,
+			);
+			name = IShimmerImageViewUITests;
+			productName = IShimmerImageViewUITests;
+			productReference = CEB1C4A71E65B47200B07DE9 /* IShimmerImageViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEB1C47B1E65B47200B07DE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Yaqiang Wang";
+				TargetAttributes = {
+					CEB1C4821E65B47200B07DE9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					CEB1C49B1E65B47200B07DE9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEB1C4821E65B47200B07DE9;
+					};
+					CEB1C4A61E65B47200B07DE9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEB1C4821E65B47200B07DE9;
+					};
+				};
+			};
+			buildConfigurationList = CEB1C47E1E65B47200B07DE9 /* Build configuration list for PBXProject "IShimmerImageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEB1C47A1E65B47200B07DE9;
+			productRefGroup = CEB1C4841E65B47200B07DE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEB1C4821E65B47200B07DE9 /* IShimmerImageView */,
+				CEB1C49B1E65B47200B07DE9 /* IShimmerImageViewTests */,
+				CEB1C4A61E65B47200B07DE9 /* IShimmerImageViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEB1C4811E65B47200B07DE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB1C4961E65B47200B07DE9 /* LaunchScreen.storyboard in Resources */,
+				CEB1C4931E65B47200B07DE9 /* Assets.xcassets in Resources */,
+				CEB1C4BE1E65B53300B07DE9 /* 1@2x.png in Resources */,
+				CEB1C4911E65B47200B07DE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB1C49A1E65B47200B07DE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB1C4A51E65B47200B07DE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEB1C47F1E65B47200B07DE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB1C4BC1E65B4E900B07DE9 /* IShimmerView.m in Sources */,
+				CEB1C48E1E65B47200B07DE9 /* ViewController.m in Sources */,
+				CEB1C48B1E65B47200B07DE9 /* AppDelegate.m in Sources */,
+				CEB1C4881E65B47200B07DE9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB1C4981E65B47200B07DE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB1C4A11E65B47200B07DE9 /* IShimmerImageViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB1C4A31E65B47200B07DE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB1C4AC1E65B47200B07DE9 /* IShimmerImageViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEB1C49E1E65B47200B07DE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB1C4821E65B47200B07DE9 /* IShimmerImageView */;
+			targetProxy = CEB1C49D1E65B47200B07DE9 /* PBXContainerItemProxy */;
+		};
+		CEB1C4A91E65B47200B07DE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB1C4821E65B47200B07DE9 /* IShimmerImageView */;
+			targetProxy = CEB1C4A81E65B47200B07DE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEB1C48F1E65B47200B07DE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB1C4901E65B47200B07DE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEB1C4941E65B47200B07DE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB1C4951E65B47200B07DE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEB1C4AE1E65B47200B07DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEB1C4AF1E65B47200B07DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEB1C4B11E65B47200B07DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IShimmerImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.panda.IShimmerImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEB1C4B21E65B47200B07DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IShimmerImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.panda.IShimmerImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEB1C4B41E65B47200B07DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IShimmerImageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.panda.IShimmerImageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IShimmerImageView.app/IShimmerImageView";
+			};
+			name = Debug;
+		};
+		CEB1C4B51E65B47200B07DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IShimmerImageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.panda.IShimmerImageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IShimmerImageView.app/IShimmerImageView";
+			};
+			name = Release;
+		};
+		CEB1C4B71E65B47200B07DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IShimmerImageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.panda.IShimmerImageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IShimmerImageView;
+			};
+			name = Debug;
+		};
+		CEB1C4B81E65B47200B07DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IShimmerImageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.panda.IShimmerImageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IShimmerImageView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEB1C47E1E65B47200B07DE9 /* Build configuration list for PBXProject "IShimmerImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB1C4AE1E65B47200B07DE9 /* Debug */,
+				CEB1C4AF1E65B47200B07DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB1C4B01E65B47200B07DE9 /* Build configuration list for PBXNativeTarget "IShimmerImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB1C4B11E65B47200B07DE9 /* Debug */,
+				CEB1C4B21E65B47200B07DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEB1C4B31E65B47200B07DE9 /* Build configuration list for PBXNativeTarget "IShimmerImageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB1C4B41E65B47200B07DE9 /* Debug */,
+				CEB1C4B51E65B47200B07DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEB1C4B61E65B47200B07DE9 /* Build configuration list for PBXNativeTarget "IShimmerImageViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB1C4B71E65B47200B07DE9 /* Debug */,
+				CEB1C4B81E65B47200B07DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEB1C47B1E65B47200B07DE9 /* Project object */;
+}
