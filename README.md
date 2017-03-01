@@ -4,4 +4,4 @@ Shimmer Effect on UIView
  ![image](https://github.com/IphoneCoder/IShimmerImageView/blob/master/IShimmerImageView/IShimmerImageView/1%402x.png)
 
 
- [this video](https://github.com/IphoneCoder/IShimmerImageView/blob/master/IShimmerImageView/IShimmerImageView/shimmer.mov) to see example effect.
+ [image](https://github.com/IphoneCoder/IShimmerImageView/blob/master/IShimmerImageView/IShimmerImageView/shimmer.gif) to see example effect.
